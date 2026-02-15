@@ -10,3 +10,10 @@ export type Post = {
   title: string;
   body: string;
 };
+
+export type Task = {
+  id: number;
+  userId: number;
+  title: string;
+  completed: boolean;
+};

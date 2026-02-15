@@ -6,10 +6,24 @@
       "email": "geovane@gmail.com"
     }
   ],
-  "posts": [
+  "tasks": [
     {
       "id": 1,
-      "title": "Post 1"
+      "userId": 1,
+      "title": "Estudar React",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "title": "Estudar TypeScript",
+      "completed": true
+    },
+    {
+      "id": "27b2",
+      "userId": 1,
+      "title": "Estudar Js",
+      "completed": false
     }
   ]
 }
